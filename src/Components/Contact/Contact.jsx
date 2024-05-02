@@ -49,7 +49,7 @@ const Contact = () => {
               </div>
               <a href="tel:+15596321273">
               <div className="w-full">
-                <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
+                <h4 className="mb-1 text-xl font-bold text-dark ">
                   Phone Number
                 </h4>
                 <p className="text-base text-body-color dark:text-dark-6">
@@ -75,7 +75,7 @@ const Contact = () => {
               </div>
               <a href="mailto:info@energyco.com">
               <div className="w-full">
-                <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
+                <h4 className="mb-1 text-xl font-bold text-dark ">
                   Email Address
                 </h4>
                 <p className="text-base text-body-color dark:text-dark-6">
