@@ -13,7 +13,7 @@ const TopFooter = () => {
       <div className="flex flex-col gap-2">
         <span className="text-gray-700 font-bold text-lg">Useful Links</span>
         <ul className="flex flex-col gap-1">
-          <li className="list-none">About Molla</li>
+          <li className="list-none">About ENERGYCO</li>
           <li className="list-none">Our Services</li>
           <li className="list-none">How to shop on Molla</li>
           <li className="list-none">FAQ</li>

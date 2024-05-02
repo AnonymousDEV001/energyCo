@@ -4,7 +4,7 @@ const Contact = () => {
   return (
 <>
   {/* ====== Contact Section Start */}
-  <section className="relative z-10 overflow-hidden bg-white dark:bg-dark px-20 py-20 lg:py-[120px]">
+  <section className="relative z-10 overflow-hidden bg-white dark:bg-dark px-10 md:px-20 py-20 lg:py-[120px]">
     <div className="container mx-auto">
       <div className="flex flex-wrap -mx-4 lg:justify-between">
         <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -47,14 +47,16 @@ const Contact = () => {
                   </defs>
                 </svg>
               </div>
+              <a href="tel:+15596321273">
               <div className="w-full">
                 <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
                   Phone Number
                 </h4>
                 <p className="text-base text-body-color dark:text-dark-6">
-                  +1(559)632-1273W
+                  +1(559)632-1273
                 </p>
               </div>
+              </a>
             </div>
             <div className="mb-8 flex w-full max-w-[370px]">
               <div className="bg-blue-50 text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded sm:h-[70px] sm:max-w-[70px]">
@@ -71,6 +73,7 @@ const Contact = () => {
                   />
                 </svg>
               </div>
+              <a href="mailto:webmaster@example.com">
               <div className="w-full">
                 <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
                   Email Address
@@ -79,6 +82,7 @@ const Contact = () => {
                   info@energyco.com
                 </p>
               </div>
+              </a>
             </div>
           </div>
         </div>

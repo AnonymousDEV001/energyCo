@@ -2,7 +2,7 @@ import React from "react";
 
 const Featured = () => {
   return (
-    <div className="flex justify-center md:flex-nowrap flex-wrap-reverse gap-6 items-center py-10 px-20">
+    <div className="flex justify-center md:flex-nowrap flex-wrap-reverse gap-6 items-center px-10 md:px-20 py-10">
       <div className="w-full md:w-[60%]">
         <img src="/detail.png" className="h-full w-full rounded-b-3xl" alt="" />
       </div>
