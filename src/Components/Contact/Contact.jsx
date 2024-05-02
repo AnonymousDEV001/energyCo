@@ -73,7 +73,7 @@ const Contact = () => {
                   />
                 </svg>
               </div>
-              <a href="mailto:webmaster@example.com">
+              <a href="mailto:info@energyco.com">
               <div className="w-full">
                 <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
                   Email Address
