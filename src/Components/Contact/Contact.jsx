@@ -13,9 +13,7 @@ const Contact = () => {
               GET IN TOUCH WITH US
             </h2>
             <p className="text-base leading-relaxed text-body-color dark:text-dark-6 mb-9">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eius tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              adiqua minim veniam quis nostrud exercitation ullamco
+            Reach out to us during working hours at our hotline: 1-559-632-1273. Our team is available to assist you with any energy-related questions or concerns. We're here to help!
             </p>
             <div className="mb-8 flex w-full max-w-[370px]">
               <div className="bg-blue-50 text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded sm:h-[70px] sm:max-w-[70px]">

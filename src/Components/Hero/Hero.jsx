@@ -9,17 +9,19 @@ const Hero = () => {
             Your Vertically Integrated Energy Solutions Provider
           </h1>
           <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8  lg:text-lg dark:text-gray-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-            voluptatum alias dolor minima ipsam!
+            Energy Co: Your reliable source for electricity and gas solutions.
+            With a commitment to sustainability, we harness the power of
+            renewable resources to provide clean energy options. Our tailored
+            services cater to residential, commercial, and industrial needs.
+            Join us in powering a brighter, greener future.
           </p>
-          <a
-            href="#"
-            class="inline-flex items-center gap-2 justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-500 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-          >
+          <a href="tel:+15596321273"
+            class="inline-flex items-center gap-2 justify-center px-5 py-3 mr-3
+            text-base font-medium text-center text-white rounded-lg bg-blue-500
+            hover:bg-primary-800 focus:ring-4 focus:ring-primary-300
+            dark:focus:ring-primary-900" >
             <span class="material-symbols-outlined">call</span>
-            <span>
-            Contact us
-            </span>
+            <span>Contact us</span>
           </a>
         </div>
         <div class="hidden md:flex justify-center items-center lg:mt-0 lg:col-span-5 lg:flex">
