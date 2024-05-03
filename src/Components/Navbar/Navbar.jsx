@@ -2,27 +2,7 @@
 import React, { useEffect, useState } from "react";
 
 const Navbar = () => {
-  const [navToggle,setNavToggle] = useState(false)
-  
-  const [width, setWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWidth(window.innerWidth);
-    };
-
-    window.addEventListener('resize', handleResize);
-    if(width< 600){
-      setNavToggle(true)
-    }
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
-  
-
+  const [navToggle,setNavToggle] = useState(true)
 
   return (
     <nav className="bg-white p-2 border-b-[1px] border-gray-200 dark:bg-gray-900">
@@ -58,7 +38,7 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <div style={navToggle ? {display:"none"}: {display:"block"}} className="w-full md:block md:w-auto" id="navbar-default">
+        <div  className={` ${navToggle && "hidden"} w-full md:block md:w-auto`} id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border text-gray-500 border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <a
